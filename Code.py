@@ -1,1 +1,1 @@
-print ("111")
+x=float(input("Ivesk"))
