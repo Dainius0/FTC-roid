@@ -43,3 +43,4 @@ elif a == 4 and x >= 1.5:
   print(f"Dėkojame už Jūsų pirkinį. Jūsų likutis yra €{b}.")
 else:
   print(f'Nėra sąraše')
+
