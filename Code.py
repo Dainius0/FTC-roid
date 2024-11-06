@@ -19,22 +19,32 @@ elif x>=0.5:
 else:
   print(f'Jūsų įvestos sumos nepakanka jokiems daiktams įsigyti')
         
-        
 a = int(input(f"Įveskite passirinkimo numerį: "))     
 if a == 1 and x >= 0.5:
   print("Pasirinkote Saldainiai.")
-  b=x-0,5
-  print(f"ėkojame už Jūsų pirkinį. Jūsų likutis yra €{b}.")
-  
-if a == 2 and x >= 0.75:
+  b=float(x-0.5)
+  b=round(b,2)
+  print(f"Dėkojame už Jūsų pirkinį. Jūsų likutis yra €{b}.")
+elif a == 2 and x >= 0.75:
   print("Pasirinkote Kramtomoji guma.")
-  b=x-0,75
-  print(f"ėkojame už Jūsų pirkinį. Jūsų likutis yra €{b}.")
+  b=float(x-0.75)
+  b=round(b,2)
+  print(f"Dėkojame už Jūsų pirkinį. Jūsų likutis yra €{b}.")
   
-if a == 3 and x>=1:
+elif a == 3 and x>=1:
   print("Pasirinkote Traškučiai.")
-  b=x-1
-  print(f"ėkojame už Jūsų pirkinį. Jūsų likutis yra €{b}.")
-if a == 4 and x >= 1.5:
+  b=float(x-1)
+  b=round(b,2)
+  print(f"Dėkojame už Jūsų pirkinį. Jūsų likutis yra €{b}.")
+elif a == 4 and x >= 1.5:
   print("Pasirinkote Gėrimas.")
-  b=x-1,5
+  b=float(x-1.5)
+  b=round(b,2)
+  print(f"Dėkojame už Jūsų pirkinį. Jūsų likutis yra €{b}.")
+else:
+  print(f'Nėra sąraše')
+  
+  
+  
+  
+  
