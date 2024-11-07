@@ -19,7 +19,7 @@ elif x>=0.5:
 else:
   print(f'Jūsų įvestos sumos nepakanka jokiems daiktams įsigyti')
         
-a = int(input(f"Įveskite passirinkimo numerį: "))     
+a = int(input(f"Įveskite pasirinkimo numerį: "))     
 if a == 1 and x >= 0.5:
   print("Pasirinkote Saldainiai.")
   b=float(x-0.5)
